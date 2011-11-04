@@ -1,51 +1,18 @@
-# rvm use ree@rails31
+Login in with Facebook
+========================
 
-Bets
-============================
-rails g scaffold Bet better_by_user_id:integer bettee_by_user_id:integer is_approved:integer week:integer betters_team_id:integer bettees_team_id:integer
-============================
-better_by_user_id => 20 # Andre
-bettee_by_user_id => 109 # Brian
-is_approved => 0 / 1 
-week => 7
-betters_team_id => 12 # Dallas
-bettees_team_id => 3 # Cleveland
+Two models have been created
+	- User
+	- Authentication
+	
+The User Model holds info like Name, Email, Password, etc...
+The Authentication Model holds the UserID, Social Provider (incase I include Twitter), and UID.
 
-UserWins
-============================
-rails g model UserWin user_id:integer bet_id:integer
-============================
-user_id => 20 # Andre
-bet_id => 8
+The user selects to login with Facebook ad a few things happen...
 
-TeamWins
-============================
-rails g model TeamWin week:integer team_id:integer
-============================
-week => 7
-team_id
+1. I check the Authentication table to see if there is an existing record. If so, I find the user in the user table by the UserID value stored in the Authentication table.
 
-TeamStats
-============================
-rails g scaffold TeamStats week:integer team_w_id:integer team_l_id:integer team_w_score:integer team_l_score:integer
-============================
-week => 1
-team_w_id => 3
-team_l_id => 12
-team_w_score => 17
-team_l_score => 14
+2. If there is no match found, I create a new User Record using the values from the Facebook response and also an Authentication record with the new users ID. 
 
-Schedule
-============================
-rails g model FFNerdSchedule game_date:string game_time:string away_team:string home_team:string week:integer ffn_game_id:integer 
-============================
-"GameDate"=>"2011-09-08"
-"AwayTeam"=>"NO"
-"HomeTeam"=>"GB"
-"Week"=>"1"
-"GameTime"=>"8:30 PM"
-"FFN_gameId"=>"1"
+3. When one of those tasks are complete, I then create a session and log the user in.
 
-f.each do |game|
-  puts "FfNerdSchedule.create(:game_date => '#{game.game_date}',:game_time => '#{game.game_time}',:away_team => '#{game.away_team}', :home_team => '#{game.home_team}', :week => '#{game.week}', :ffn_game_id => '#{game.ffn_game_id}')"
-end
