@@ -1,0 +1,29 @@
+development:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: sports_donut_development
+   pool: 5
+   username: Sociallogin
+   password: Sociallogin
+   socket: /tmp/mysql.sock
+
+test:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: sports_donut_test
+   pool: 5
+   username: Sociallogin
+   password: Sociallogin
+   socket: /tmp/mysql.sock
+
+production:
+   adapter: mysql2
+   encoding: utf8
+   reconnect: false
+   database: sports_donut_production
+   pool: 5
+   username: Sociallogin
+   password: Sociallogin
+   socket: /tmp/mysql.sock
