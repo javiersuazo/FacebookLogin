@@ -1,0 +1,4 @@
+{ global:
+RegisterDOTImage;
+UnregisterDOTImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterMSLImage;
+UnregisterMSLImage;
+local: *; };

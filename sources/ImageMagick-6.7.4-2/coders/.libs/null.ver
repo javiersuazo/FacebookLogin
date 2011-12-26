@@ -1,0 +1,4 @@
+{ global:
+RegisterNULLImage;
+UnregisterNULLImage;
+local: *; };

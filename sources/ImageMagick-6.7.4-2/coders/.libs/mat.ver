@@ -1,0 +1,4 @@
+{ global:
+RegisterMATImage;
+UnregisterMATImage;
+local: *; };

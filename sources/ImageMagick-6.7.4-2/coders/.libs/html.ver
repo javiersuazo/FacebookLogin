@@ -1,0 +1,4 @@
+{ global:
+RegisterHTMLImage;
+UnregisterHTMLImage;
+local: *; };

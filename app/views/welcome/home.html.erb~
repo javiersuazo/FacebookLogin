@@ -1,0 +1,44 @@
+<!-- <div id="slide-out"> -->
+<!-- 		<div id="subscribe" class="page-wrap"> -->
+<!-- 			<ul> -->
+<!-- 				 -->
+<!-- 				<li><%=link_to "Salir", logout_path %><img src="http://graph.facebook.com/<%= current_uid %>/picture/?type=small"/> <a>Autenticado como <%=current_user.username%></a></li> -->
+<!-- 			</ul> -->
+<!-- 			<div class="clear"></div> -->
+<!-- 			<a href="#" class="button">Sing out!</a> -->
+<!-- 		</div> -->
+<!-- </div> -->
+
+<div id="main-container">
+		<div  class="page-wrap">
+		     <h1>Hola! <%= current_user.name %></h1>
+
+		    <div class = "container2"><a href = "/users/<%=current_user.id%>/collects/new">
+		    <img id = "asd" src="/add.png"/><h1>Agregar un nuevo album!</h1></a>
+		    </div>
+		      <br/>
+		    <div class = "container2"><a href = "/users/<%=current_user.id%>/collects/new">
+		    <img id = "asd" src="/camara.png"/>
+			<%if Collect.where("user_id = #{current_user.id}").size > 0%>
+			 <h1>Has sugerido <%=Collect.where("user_id = #{current_user.id}").size%> 
+
+			  <%if Collect.where("user_id = #{current_user.id}").size == 1%>
+			    lugar
+			  <%else%>
+			    lugares
+			  <%end%>
+
+			  !!</h1>
+			<%else%>
+			<h1>No has sugerido lugares todavia...</h1>
+			<%end%>
+		      </a>
+		    </div><br/>
+		     <div class = "container2"><a href = "/users/<%=current_user.id%>/collects/new">
+		    <img id = "asd" src="/buscar.png"/><h1>Buscar Lugares Sugeridos!</h1></a>
+		    </div>
+		      
+		    
+		</div>
+
+</div>

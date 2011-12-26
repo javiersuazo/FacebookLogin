@@ -1,0 +1,4 @@
+{ global:
+RegisterMAGICKImage;
+UnregisterMAGICKImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterMPEGImage;
+UnregisterMPEGImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterPCDImage;
+UnregisterPCDImage;
+local: *; };

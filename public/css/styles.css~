@@ -1,0 +1,132 @@
+﻿@import url('reset.css');
+body{
+	color: #484848;
+	background-color: #f7f7f7;
+}
+.clear {
+	clear: both;
+}
+h1{
+	font-size: 58px;
+	margin-bottom: 25px;
+	height: 68px;
+}
+h3{
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+p{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.linea{
+  width:100%;
+  height: 7px;
+  background-color:#787878;
+  
+}
+.ma {
+  margin-left:120px;
+  margin-top:120px;
+  
+}
+#slide-out {
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	background-color: #686868;
+	height: 73px;
+	color: #fff;
+	position: relative ;
+	padding-top: 25px;
+	margin-top: -98px;		
+}
+
+#slide-out2 {
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	background-color: #686868;
+	height: 73px;
+	color: #fff;
+	position: relative ;
+	padding-top: 25px;
+	margin-top: -90px;		
+}
+
+
+.page-wrap {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 635px;
+}
+#main-container{	
+	border-top:thick solid #484848;
+	padding-top: 60px;
+	text-align: center;
+}
+.button{
+	background-image:url("../images/button.png");
+	bottom:-63px;
+	color:#FFFFFF;
+	display:block;
+	font-size:18px;
+	height:28px;
+	padding-top:5px;
+	position:absolute;
+	right:0;
+	text-align:center;
+	text-decoration:none;
+	width:105px;
+	z-index:100;
+	line-height: normal;
+}
+
+#slide-out:hover{
+	margin-top: 0px;
+}
+.button:hover #slide-out{
+	margin-top: 0px;	
+}
+#subscribe{
+	line-height: 0px;
+}
+#subscribe ul li a{
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	font-size:24px;
+	height:38px;
+	margin: 0px 20px;
+	padding: 10px 0px 0px 55px;
+	color: #d3d3d3;
+	text-decoration: none;	
+	line-height: normal;
+}
+#subscribe ul li a:hover{
+	color: #fff;
+}
+
+
+
+.rss{
+	background-image: url('../images/rss.png');
+}
+.fb{
+	background-image: url('../images/facebook.png');
+}
+.welcome {
+   
+	
+}
+.twitter{
+	background-image: url('../images/twitter.png');
+}
+.mail{
+	background-image: url('../images/mail-rss.png');
+	margin: 0px;
+}

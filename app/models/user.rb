@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
 	has_many :authentications
-  attr_accessible :name, :email, :username, :password, :password_confirmation
+	has_many :collects	
+  	attr_accessible :name, :email, :username, :password, :password_confirmation
 	has_secure_password
 	
   validates_uniqueness_of :email

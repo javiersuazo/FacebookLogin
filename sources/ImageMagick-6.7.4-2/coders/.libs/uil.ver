@@ -1,0 +1,4 @@
+{ global:
+RegisterUILImage;
+UnregisterUILImage;
+local: *; };

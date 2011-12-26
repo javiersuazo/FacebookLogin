@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @collect.titulo %>
+  
+</p>
+
+
+<%= link_to 'Edit', edit_collect_path(@collect) %> |
+<%= link_to 'Back', collects_path %>

@@ -1,0 +1,4 @@
+{ global:
+RegisterPLASMAImage;
+UnregisterPLASMAImage;
+local: *; };

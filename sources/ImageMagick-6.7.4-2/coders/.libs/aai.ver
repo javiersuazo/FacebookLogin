@@ -1,0 +1,4 @@
+{ global:
+RegisterAAIImage;
+UnregisterAAIImage;
+local: *; };

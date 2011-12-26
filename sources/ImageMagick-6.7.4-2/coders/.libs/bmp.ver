@@ -1,0 +1,4 @@
+{ global:
+RegisterBMPImage;
+UnregisterBMPImage;
+local: *; };

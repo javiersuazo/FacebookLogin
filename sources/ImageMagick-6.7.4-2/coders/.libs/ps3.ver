@@ -1,0 +1,4 @@
+{ global:
+RegisterPS3Image;
+UnregisterPS3Image;
+local: *; };

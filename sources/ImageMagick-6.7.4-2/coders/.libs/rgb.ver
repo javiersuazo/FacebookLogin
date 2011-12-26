@@ -1,0 +1,4 @@
+{ global:
+RegisterRGBImage;
+UnregisterRGBImage;
+local: *; };

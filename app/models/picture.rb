@@ -1,0 +1,4 @@
+class Picture < ActiveRecord::Base
+belongs_to :collect
+has_attached_file :photo, :styles => { :medium => "300x300>", :thumb => "100x100>" }
+end

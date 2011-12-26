@@ -1,0 +1,5 @@
+{ global:
+RegisterWPGImage;
+UnregisterWPGImage;
+WPG1_Palette;
+local: *; };

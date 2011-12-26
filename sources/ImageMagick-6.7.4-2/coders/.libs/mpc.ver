@@ -1,0 +1,4 @@
+{ global:
+RegisterMPCImage;
+UnregisterMPCImage;
+local: *; };

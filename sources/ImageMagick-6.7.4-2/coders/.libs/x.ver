@@ -1,0 +1,4 @@
+{ global:
+RegisterXImage;
+UnregisterXImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterPS2Image;
+UnregisterPS2Image;
+local: *; };

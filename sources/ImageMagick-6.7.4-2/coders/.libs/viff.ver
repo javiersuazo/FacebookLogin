@@ -1,0 +1,4 @@
+{ global:
+RegisterVIFFImage;
+UnregisterVIFFImage;
+local: *; };

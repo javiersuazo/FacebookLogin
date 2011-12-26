@@ -1,0 +1,4 @@
+{ global:
+RegisterBGRImage;
+UnregisterBGRImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterRAWImage;
+UnregisterRAWImage;
+local: *; };

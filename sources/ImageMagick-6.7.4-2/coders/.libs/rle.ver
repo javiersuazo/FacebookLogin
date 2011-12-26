@@ -1,0 +1,4 @@
+{ global:
+RegisterRLEImage;
+UnregisterRLEImage;
+local: *; };

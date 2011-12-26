@@ -1,0 +1,4 @@
+{ global:
+RegisterPDBImage;
+UnregisterPDBImage;
+local: *; };

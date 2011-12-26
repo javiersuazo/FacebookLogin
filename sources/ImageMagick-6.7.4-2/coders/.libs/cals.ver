@@ -1,0 +1,4 @@
+{ global:
+RegisterCALSImage;
+UnregisterCALSImage;
+local: *; };

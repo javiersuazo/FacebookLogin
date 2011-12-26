@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
   end
 
   def home
-  	
+   @collect = Collect.new  	
   end
   
 end

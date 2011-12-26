@@ -1,0 +1,4 @@
+{ global:
+RegisterMIFFImage;
+UnregisterMIFFImage;
+local: *; };

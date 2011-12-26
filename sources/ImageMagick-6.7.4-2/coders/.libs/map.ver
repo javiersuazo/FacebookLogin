@@ -1,0 +1,4 @@
+{ global:
+RegisterMAPImage;
+UnregisterMAPImage;
+local: *; };

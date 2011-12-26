@@ -1,0 +1,4 @@
+{ global:
+RegisterCAPTIONImage;
+UnregisterCAPTIONImage;
+local: *; };

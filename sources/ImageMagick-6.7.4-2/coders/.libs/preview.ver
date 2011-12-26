@@ -1,0 +1,4 @@
+{ global:
+RegisterPREVIEWImage;
+UnregisterPREVIEWImage;
+local: *; };

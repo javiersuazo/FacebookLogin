@@ -1,0 +1,4 @@
+{ global:
+RegisterINLINEImage;
+UnregisterINLINEImage;
+local: *; };

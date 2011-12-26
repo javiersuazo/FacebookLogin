@@ -1,0 +1,4 @@
+{ global:
+RegisterXBMImage;
+UnregisterXBMImage;
+local: *; };

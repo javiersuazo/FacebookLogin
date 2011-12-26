@@ -1,0 +1,4 @@
+{ global:
+RegisterTXTImage;
+UnregisterTXTImage;
+local: *; };

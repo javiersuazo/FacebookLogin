@@ -1,0 +1,4 @@
+{ global:
+RegisterYCBCRImage;
+UnregisterYCBCRImage;
+local: *; };

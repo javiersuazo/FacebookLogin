@@ -1,0 +1,4 @@
+{ global:
+RegisterPNMImage;
+UnregisterPNMImage;
+local: *; };

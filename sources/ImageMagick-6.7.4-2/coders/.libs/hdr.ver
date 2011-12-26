@@ -1,0 +1,4 @@
+{ global:
+RegisterHDRImage;
+UnregisterHDRImage;
+local: *; };

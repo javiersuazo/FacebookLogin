@@ -1,0 +1,11 @@
+<h1>Crear Album</h1>
+
+<%=semantic_form_for @album , :html => {:multipart =>  true}  do |f|%>
+	<%= f.inputs do%>
+	<%= f.input :titulo %>
+	<%= f.file_field :photo, :label =>"Adjuntar Archivo:" %>
+	<%end%>
+	<%= f.buttons do%>
+	<%= f.commit_button%>
+	<%end%>
+<%end%>

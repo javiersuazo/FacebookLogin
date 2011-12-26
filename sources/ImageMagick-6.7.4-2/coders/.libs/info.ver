@@ -1,0 +1,4 @@
+{ global:
+RegisterINFOImage;
+UnregisterINFOImage;
+local: *; };

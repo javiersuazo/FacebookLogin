@@ -1,0 +1,4 @@
+{ global:
+RegisterMTVImage;
+UnregisterMTVImage;
+local: *; };

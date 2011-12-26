@@ -1,0 +1,4 @@
+{ global:
+RegisterDCMImage;
+UnregisterDCMImage;
+local: *; };

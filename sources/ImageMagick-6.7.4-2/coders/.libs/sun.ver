@@ -1,0 +1,4 @@
+{ global:
+RegisterSUNImage;
+UnregisterSUNImage;
+local: *; };

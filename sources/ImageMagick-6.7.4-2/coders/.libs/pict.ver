@@ -1,0 +1,4 @@
+{ global:
+RegisterPICTImage;
+UnregisterPICTImage;
+local: *; };

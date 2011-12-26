@@ -1,0 +1,4 @@
+{ global:
+RegisterPSDImage;
+UnregisterPSDImage;
+local: *; };

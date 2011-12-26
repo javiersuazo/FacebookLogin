@@ -1,0 +1,4 @@
+{ global:
+RegisterCMYKImage;
+UnregisterCMYKImage;
+local: *; };

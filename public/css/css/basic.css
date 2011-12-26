@@ -1,0 +1,116 @@
+
+a{
+	color: #27D;
+	text-decoration: none;
+}
+a:focus, a:hover, a:active {
+	text-decoration: underline;
+}
+
+div#page {
+	width: 900px;
+	background-color: transparent;
+	margin-left:-120px;
+	text-align: left;
+	border-color: #ddd;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+}
+div#container {
+	padding: 20px;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+
+.logdiv input[type="submit"]{
+  
+  border: 1px solid #8DB1BA;
+  border-radius:18px;
+  margin-left: 100px;
+  
+}
+.logdiv input{
+    
+margin-bottom: 12px;
+
+font-size: 18px;
+padding: 10px;
+border: 1px solid #8DB1BA;
+background: url("/bg-fields.jpg") repeat-x scroll left bottom transparent;
+color: black;
+  
+}
+.logdiv{
+  border: 2px;
+  border-color:black;
+  width: 480px;
+  height: 550px;
+  background:url('/descarga.png');
+  margin-left: 30%;
+  margin-top: 5%;
+  padding:20px;
+  
+}
+
+.container2 h1 {
+  
+  font-size:35px;
+  margin-top: -100px;
+  margin-left: 140px;
+  
+}
+
+#asd{
+  margin-left:-500px;
+}
+
+.center label {
+  
+  font-size:20px;
+}
+.center input {
+  margin-bottom: 12px;
+margin-left: 20px;
+width : 300px;
+font-size: 18px;
+padding: 10px;
+border: 1px solid #8DB1BA;
+background: url("/bg-fields.jpg") repeat-x scroll left bottom transparent;
+color: black;
+}
+
+.center h1 {
+  
+  font-size:35px;
+  text-align: center;
+}
+
+
+.center{
+  border-radius:15px;
+  width: 500px;
+  min-height:150px;
+  width: 700px;
+  padding: 20px;
+  background-color: #EBFCFE;
+  border: 3px solid #92B3D1;
+  overflow: auto;
+  
+  margin-top:60px;
+  margin-left: 190px;
+  
+}
+.container2{
+  border-radius:15px;
+  width: 500px;
+  height:130px;
+  width: 650px;
+  padding: 20px;
+  background-color: #EBFCFE;
+  border: 3px solid #92B3D1;
+  overflow: auto;
+  margin-left: -40px;
+  
+}

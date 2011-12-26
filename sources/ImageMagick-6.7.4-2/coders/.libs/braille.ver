@@ -1,0 +1,4 @@
+{ global:
+RegisterBRAILLEImage;
+UnregisterBRAILLEImage;
+local: *; };

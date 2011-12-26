@@ -1,0 +1,4 @@
+{ global:
+RegisterXWDImage;
+UnregisterXWDImage;
+local: *; };

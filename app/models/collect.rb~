@@ -1,0 +1,4 @@
+class Collect < ActiveRecord::Base
+has_many :pictures
+validates_presence_of :titulo
+end

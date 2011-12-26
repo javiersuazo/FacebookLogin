@@ -1,0 +1,4 @@
+{ global:
+RegisterRLAImage;
+UnregisterRLAImage;
+local: *; };

@@ -1,0 +1,4 @@
+{ global:
+RegisterHALDImage;
+UnregisterHALDImage;
+local: *; };
